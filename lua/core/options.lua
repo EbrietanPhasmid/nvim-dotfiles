@@ -20,6 +20,9 @@ opt.mouse = "a"
 -- Enable clipboard
 opt.clipboard = "unnamedplus"
 
+-- no tilde
+opt.fillchars = { eob = " " }
+
 -- Better splitting
 opt.splitright = true
 opt.splitbelow = true

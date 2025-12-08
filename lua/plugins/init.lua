@@ -24,6 +24,9 @@ return require("lazy").setup({
 		dependencies = "nvim-lua/plenary.nvim",
 	},
 
+	-- Tree
+	"nvim-tree/nvim-tree.lua",
+
 	-- Testing
 	{
 		"nvim-neotest/neotest",
