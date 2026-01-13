@@ -13,13 +13,14 @@ require("code_runner").setup({
 			"  rustc $fileName && $dir/$fileNameWithoutExt",
 			"fi",
 		},
-		go = "cd $dir && go run $fileName",
+		go = { "cd $dir && go build", "go run $fileName" },
 		haskell = {
 			"cd $dir &&",
 			"ghc -o $fileNameWithoutExt $fileName &&",
 			"$dir/$fileNameWithoutExt",
 		},
 		typst = "cd $dir && typst compile $fileName",
+		zig = "cd $dir && zig run $fileName",
 	},
 })
 

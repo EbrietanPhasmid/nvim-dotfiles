@@ -71,6 +71,13 @@ return require("lazy").setup({
 		lazy = false, -- This plugin is already lazy
 	},
 
+	-- Rust
+	{
+		"mrcjkb/rustaceanvim",
+		version = "^6", -- Recommended
+		lazy = false, -- This plugin is already lazy
+	},
+
 	-- Mason for LSP management
 	"mason-org/mason.nvim",
 	"mason-org/mason-lspconfig.nvim",

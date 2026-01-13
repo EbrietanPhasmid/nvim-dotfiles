@@ -61,6 +61,6 @@ vim.fn.sign_define("DiagnosticSignHint", { text = "", texthl = "DiagnosticSig
 vim.fn.sign_define("DiagnosticSignInfo", { text = "", texthl = "DiagnosticSignInfo" })
 
 require("lang.cpp")
-require("lang.rust")
 require("lang.go")
 require("lang.typst")
+require("lang.zig")
